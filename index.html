@@ -2,42 +2,62 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>PC Store</title>
+  <title>PC Shop</title>
 </head>
 
-<body style="font-family: Arial; margin:0; background:#f4f4f4; text-align:center;">
+<body style="margin:0; font-family:Arial; background:#f2f2f2;">
 
-  <h1 style="padding:20px;">💻 PC Store</h1>
-  <p>Vând calculatoare gaming și office</p>
+<!-- HEADER -->
+<div style="background:#111; color:white; padding:15px;">
+  <h1 style="margin:0;">💻 PC Store</h1>
+  <p style="margin:5px;">Calculatoare gaming și office</p>
+</div>
 
-  <hr>
+<!-- MENIU -->
+<div style="background:#fff; padding:10px;">
+  <a href="#gaming">Gaming PC</a> |
+  <a href="#office">Office PC</a> |
+  <a href="#contact">Contact</a>
+</div>
 
-  <!-- PRODUS 1 -->
-  <div style="background:white; margin:20px auto; padding:20px; width:300px; border-radius:10px;">
-    <h2>🔥 Gaming PC</h2>
+<!-- PRODUS 1 -->
+<div id="gaming" style="padding:20px;">
+  <h2>🔥 Gaming PC</h2>
+
+  <div style="background:white; padding:20px; width:300px; margin:auto; border-radius:10px;">
     <p>RTX 3060 • i5 • 16GB RAM • SSD 512GB</p>
     <h3>3500 RON</h3>
 
     <a href="https://wa.me/40748161338?text=Salut%20vreau%20Gaming%20PC" target="_blank">
-      <button>Contactează-mă pe WhatsApp</button>
+      <button style="padding:10px; background:green; color:white; border:none; border-radius:5px;">
+        Cumpără acum
+      </button>
     </a>
   </div>
+</div>
 
-  <!-- PRODUS 2 -->
-  <div style="background:white; margin:20px auto; padding:20px; width:300px; border-radius:10px;">
-    <h2>💼 Office PC</h2>
+<!-- PRODUS 2 -->
+<div id="office" style="padding:20px;">
+  <h2>💼 Office PC</h2>
+
+  <div style="background:white; padding:20px; width:300px; margin:auto; border-radius:10px;">
     <p>i3 • 8GB RAM • SSD 256GB</p>
     <h3>1500 RON</h3>
 
     <a href="https://wa.me/40748161338?text=Salut%20vreau%20Office%20PC" target="_blank">
-      <button>Contactează-mă pe WhatsApp</button>
+      <button style="padding:10px; background:green; color:white; border:none; border-radius:5px;">
+        Cumpără acum
+      </button>
     </a>
   </div>
+</div>
 
-  <hr>
-
-  <h3>💳 Plată</h3>
-  <p>Transfer bancar sau Revolut după confirmarea comenzii</p>
+<!-- CONTACT -->
+<div id="contact" style="background:#111; color:white; padding:20px; margin-top:20px;">
+  <h3>Contact</h3>
+  <p>WhatsApp: 0748161338</p>
+  <p>Plată: transfer bancar / Revolut</p>
+</div>
 
 </body>
 </html>
